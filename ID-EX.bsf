@@ -20,14 +20,14 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 216 240)
+	(rect 16 16 216 272)
 	(text "ID-EX" (rect 5 0 42 12)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 210 25 220)(font "Arial" ))
+	(text "inst" (rect 8 242 25 252)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "D[154..0]" (rect 0 0 54 12)(font "Arial" (font_size 8)))
-		(text "D[154..0]" (rect 21 27 75 39)(font "Arial" (font_size 8)))
+		(text "D[157..0]" (rect 0 0 54 12)(font "Arial" (font_size 8)))
+		(text "D[157..0]" (rect 21 27 75 39)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
@@ -107,7 +107,28 @@ applicable agreement for further details.
 		(text "rd[4..0]" (rect 137 171 179 183)(font "Arial" (font_size 8)))
 		(line (pt 200 176)(pt 184 176)(line_width 3))
 	)
+	(port
+		(pt 200 192)
+		(output)
+		(text "bgez" (rect 0 0 29 12)(font "Arial" (font_size 8)))
+		(text "bgez" (rect 150 187 179 199)(font "Arial" (font_size 8)))
+		(line (pt 200 192)(pt 184 192))
+	)
+	(port
+		(pt 200 208)
+		(output)
+		(text "bne" (rect 0 0 23 12)(font "Arial" (font_size 8)))
+		(text "bne" (rect 156 203 179 215)(font "Arial" (font_size 8)))
+		(line (pt 200 208)(pt 184 208))
+	)
+	(port
+		(pt 200 224)
+		(output)
+		(text "beq" (rect 0 0 23 12)(font "Arial" (font_size 8)))
+		(text "beq" (rect 156 219 179 231)(font "Arial" (font_size 8)))
+		(line (pt 200 224)(pt 184 224))
+	)
 	(drawing
-		(rectangle (rect 16 16 184 208))
+		(rectangle (rect 16 16 184 240))
 	)
 )

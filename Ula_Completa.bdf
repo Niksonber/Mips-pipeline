@@ -131,6 +131,22 @@ applicable agreement for further details.
 		(line (pt 78 12)(pt 82 8))
 	)
 )
+(pin
+	(output)
+	(rect 3256 1328 3439 1344)
+	(text "OUTPUT" (rect 1 0 41 9)(font "Arial" (font_size 6)))
+	(text "MaiorOuIgualZero" (rect 90 0 177 10)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
 (symbol
 	(rect 552 48 776 176)
 	(text "Ula_simples" (rect 5 0 76 12)(font "Arial" (font_size 8)))
@@ -2797,6 +2813,31 @@ applicable agreement for further details.
 	)
 	(flipx)
 )
+(symbol
+	(rect 3152 1320 3200 1352)
+	(text "NOT" (rect 1 0 22 9)(font "Arial" (font_size 6)))
+	(text "inst45" (rect 3 21 32 31)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 16 18)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 16 18)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 13 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 54 18)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 54 18)(font "Courier New" (bold))(invisible))
+		(line (pt 39 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 13 25)(pt 13 7))
+		(line (pt 13 7)(pt 31 16))
+		(line (pt 13 25)(pt 31 16))
+		(circle (rect 31 12 39 20))
+	)
+)
 (connector
 	(text "CONTROLE[4..0]" (rect 466 -88 548 -78)(font "Arial" ))
 	(pt 552 -72)
@@ -4303,4 +4344,13 @@ applicable agreement for further details.
 	(pt 2816 976)
 	(pt 2816 1040)
 	(bus)
+)
+(connector
+	(pt 3256 1336)
+	(pt 3200 1336)
+)
+(connector
+	(text "A[31]" (rect 3104 1328 3128 1338)(font "Arial" ))
+	(pt 3152 1336)
+	(pt 3064 1336)
 )

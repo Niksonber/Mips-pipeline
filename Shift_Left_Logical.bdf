@@ -9897,42 +9897,42 @@ applicable agreement for further details.
 	(pt 782 3376)
 )
 (connector
-	(text "Result1[17]" (rect 744 3208 798 3218)(font "Arial" ))
+	(text "Result1[17]" (rect 712 3216 766 3226)(font "Arial" ))
 	(pt 742 3200)
 	(pt 782 3200)
 )
 (connector
-	(text "Result1[16]" (rect 744 3032 798 3042)(font "Arial" ))
+	(text "Result1[16]" (rect 720 3040 774 3050)(font "Arial" ))
 	(pt 742 3024)
 	(pt 782 3024)
 )
 (connector
-	(text "Result1[15]" (rect 744 2856 798 2866)(font "Arial" ))
+	(text "Result1[15]" (rect 712 2856 766 2866)(font "Arial" ))
 	(pt 742 2848)
 	(pt 782 2848)
 )
 (connector
-	(text "Result1[14]" (rect 744 2680 798 2690)(font "Arial" ))
+	(text "Result1[14]" (rect 720 2680 774 2690)(font "Arial" ))
 	(pt 742 2672)
 	(pt 782 2672)
 )
 (connector
-	(text "Result1[13]" (rect 744 2504 798 2514)(font "Arial" ))
+	(text "Result1[13]" (rect 712 2504 766 2514)(font "Arial" ))
 	(pt 742 2496)
 	(pt 782 2496)
 )
 (connector
-	(text "Result1[12]" (rect 744 2328 798 2338)(font "Arial" ))
+	(text "Result1[12]" (rect 720 2336 774 2346)(font "Arial" ))
 	(pt 742 2320)
 	(pt 782 2320)
 )
 (connector
-	(text "Result1[11]" (rect 744 2152 798 2162)(font "Arial" ))
+	(text "Result1[11]" (rect 720 2152 774 2162)(font "Arial" ))
 	(pt 742 2144)
 	(pt 782 2144)
 )
 (connector
-	(text "Result1[10]" (rect 744 1976 798 1986)(font "Arial" ))
+	(text "Result1[10]" (rect 720 1976 774 1986)(font "Arial" ))
 	(pt 742 1968)
 	(pt 782 1968)
 )
@@ -9960,11 +9960,6 @@ applicable agreement for further details.
 	(text "Result1[5]" (rect 744 1072 792 1082)(font "Arial" ))
 	(pt 742 1064)
 	(pt 782 1064)
-)
-(connector
-	(text "Result2[4]" (rect 944 1072 992 1082)(font "Arial" ))
-	(pt 942 1064)
-	(pt 990 1064)
 )
 (connector
 	(text "GND" (rect 936 1032 960 1042)(font "Arial" ))
@@ -10820,4 +10815,9 @@ applicable agreement for further details.
 	(text "BIT[31]" (rect 354 5672 388 5682)(font "Arial" ))
 	(pt 352 5664)
 	(pt 384 5664)
+)
+(connector
+	(text "Result2[5]" (rect 944 1072 992 1082)(font "Arial" ))
+	(pt 942 1064)
+	(pt 990 1064)
 )
