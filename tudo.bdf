@@ -4869,14 +4869,14 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "CLOCK" (rect 840 584 877 594)(font "Arial" ))
-	(pt 888 592)
-	(pt 832 592)
-)
-(connector
 	(text "clock_aux" (rect 2040 704 2088 714)(font "Arial" ))
 	(pt 2128 712)
 	(pt 2032 712)
+)
+(connector
+	(text "clock_aux" (rect 840 584 888 594)(font "Arial" ))
+	(pt 888 592)
+	(pt 832 592)
 )
 (junction (pt 2224 -446))
 (junction (pt 3649 -584))
