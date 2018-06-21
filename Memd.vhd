@@ -104,7 +104,7 @@ BEGIN
 		clock_enable_input_b => "BYPASS",
 		clock_enable_output_a => "BYPASS",
 		clock_enable_output_b => "BYPASS",
-		init_file => "./Lab2-asm-files/apresentacao-dia2/apresentacao-dia2/nivel1dia2_data.mif",
+		init_file => "./Lab2-asm-files/apresentacao-dia2/apresentacao-dia2/nivel2dia2_data.mif",
 		intended_device_family => "Cyclone II",
 		lpm_type => "altsyncram",
 		numwords_a => 16384,
@@ -170,7 +170,7 @@ END SYN;
 -- Retrieval info: PRIVATE: MAXIMUM_DEPTH NUMERIC "0"
 -- Retrieval info: PRIVATE: MEMSIZE NUMERIC "524288"
 -- Retrieval info: PRIVATE: MEM_IN_BITS NUMERIC "1"
--- Retrieval info: PRIVATE: MIFfilename STRING "./Lab2-asm-files/apresentacao-dia2/apresentacao-dia2/nivel1dia2_data.mif"
+-- Retrieval info: PRIVATE: MIFfilename STRING "./Lab2-asm-files/apresentacao-dia2/apresentacao-dia2/nivel2dia2_data.mif"
 -- Retrieval info: PRIVATE: OPERATION_MODE NUMERIC "2"
 -- Retrieval info: PRIVATE: OUTDATA_ACLR_B NUMERIC "0"
 -- Retrieval info: PRIVATE: OUTDATA_REG_B NUMERIC "1"
@@ -203,7 +203,7 @@ END SYN;
 -- Retrieval info: CONSTANT: CLOCK_ENABLE_INPUT_B STRING "BYPASS"
 -- Retrieval info: CONSTANT: CLOCK_ENABLE_OUTPUT_A STRING "BYPASS"
 -- Retrieval info: CONSTANT: CLOCK_ENABLE_OUTPUT_B STRING "BYPASS"
--- Retrieval info: CONSTANT: INIT_FILE STRING "./Lab2-asm-files/apresentacao-dia2/apresentacao-dia2/nivel1dia2_data.mif"
+-- Retrieval info: CONSTANT: INIT_FILE STRING "./Lab2-asm-files/apresentacao-dia2/apresentacao-dia2/nivel2dia2_data.mif"
 -- Retrieval info: CONSTANT: INTENDED_DEVICE_FAMILY STRING "Cyclone II"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "altsyncram"
 -- Retrieval info: CONSTANT: NUMWORDS_A NUMERIC "16384"

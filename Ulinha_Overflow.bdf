@@ -689,12 +689,6 @@ applicable agreement for further details.
 	(pt 960 368)
 )
 (connector
-	(text "CONTROLE[2..0]" (rect 984 133 994 215)(font "Arial" )(vertical))
-	(pt 1000 280)
-	(pt 1000 176)
-	(bus)
-)
-(connector
 	(text "SOMA" (rect 858 432 891 442)(font "Arial" ))
 	(pt 856 448)
 	(pt 928 448)
@@ -737,4 +731,10 @@ applicable agreement for further details.
 	(text "CONTROLE[2]" (rect 453 333 463 403)(font "Arial" )(vertical))
 	(pt 472 344)
 	(pt 472 416)
+)
+(connector
+	(text "CONTROLE[4],CONTROLE[1..0]" (rect 984 133 994 289)(font "Arial" )(vertical))
+	(pt 1000 280)
+	(pt 1000 176)
+	(bus)
 )

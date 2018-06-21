@@ -21,7 +21,7 @@ applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect -1016 176 -848 192)
+	(rect -1000 344 -832 360)
 	(text "INPUT" (rect 125 0 154 9)(font "Arial" (font_size 6)))
 	(text "op[5..0]" (rect 5 0 40 10)(font "Arial" ))
 	(pt 168 8)
@@ -261,7 +261,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 272 1096 481 1112)
+	(rect 440 1104 649 1120)
 	(text "OUTPUT" (rect 1 0 41 9)(font "Arial" (font_size 6)))
 	(text "op_code_desconhecido" (rect 90 0 203 10)(font "Arial" ))
 	(pt 0 8)
@@ -324,7 +324,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -664 160 -616 192)
+	(rect -648 328 -600 360)
 	(text "NOT" (rect 1 0 22 9)(font "Arial" (font_size 6)))
 	(text "n110" (rect 3 21 27 31)(font "Arial" ))
 	(port
@@ -349,7 +349,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -664 200 -616 232)
+	(rect -648 368 -600 400)
 	(text "NOT" (rect 1 0 22 9)(font "Arial" (font_size 6)))
 	(text "n101" (rect 3 21 27 31)(font "Arial" ))
 	(port
@@ -374,7 +374,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -664 240 -616 272)
+	(rect -648 408 -600 440)
 	(text "NOT" (rect 1 0 22 9)(font "Arial" (font_size 6)))
 	(text "n100" (rect 3 21 27 31)(font "Arial" ))
 	(port
@@ -399,7 +399,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -664 280 -616 312)
+	(rect -648 448 -600 480)
 	(text "NOT" (rect 1 0 22 9)(font "Arial" (font_size 6)))
 	(text "n011" (rect 3 21 27 31)(font "Arial" ))
 	(port
@@ -424,7 +424,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -664 320 -616 352)
+	(rect -648 488 -600 520)
 	(text "NOT" (rect 1 0 22 9)(font "Arial" (font_size 6)))
 	(text "n010" (rect 3 21 27 31)(font "Arial" ))
 	(port
@@ -449,7 +449,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -664 360 -616 392)
+	(rect -648 528 -600 560)
 	(text "NOT" (rect 1 0 22 9)(font "Arial" (font_size 6)))
 	(text "n001" (rect 3 21 27 31)(font "Arial" ))
 	(port
@@ -1767,42 +1767,6 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(text "op[5]" (rect -686 160 -658 170)(font "Intel Clear" ))
-	(pt -664 176)
-	(pt -688 176)
-)
-(connector
-	(text "op[4]" (rect -686 200 -658 210)(font "Intel Clear" ))
-	(pt -664 216)
-	(pt -688 216)
-)
-(connector
-	(text "op[3]" (rect -686 240 -658 250)(font "Intel Clear" ))
-	(pt -664 256)
-	(pt -688 256)
-)
-(connector
-	(text "op[2]" (rect -686 280 -658 290)(font "Intel Clear" ))
-	(pt -664 296)
-	(pt -688 296)
-)
-(connector
-	(text "op[1]" (rect -686 320 -658 330)(font "Intel Clear" ))
-	(pt -664 336)
-	(pt -688 336)
-)
-(connector
-	(text "op[0]" (rect -686 360 -658 370)(font "Intel Clear" ))
-	(pt -664 376)
-	(pt -688 376)
-)
-(connector
-	(text "op[5..0]" (rect -846 168 -804 178)(font "Intel Clear" ))
-	(pt -848 184)
-	(pt -784 184)
-	(bus)
-)
-(connector
 	(text "op[5]" (rect -904 -34 -894 -6)(font "Intel Clear" )(vertical))
 	(pt -888 -32)
 	(pt -888 16)
@@ -1916,36 +1880,6 @@ applicable agreement for further details.
 	(text "op[1]" (rect 520 -42 530 -14)(font "Intel Clear" )(vertical))
 	(pt 536 -40)
 	(pt 536 16)
-)
-(connector
-	(text "N_op0" (rect -614 360 -579 370)(font "Intel Clear" ))
-	(pt -616 376)
-	(pt -592 376)
-)
-(connector
-	(text "N_op1" (rect -614 320 -580 330)(font "Intel Clear" ))
-	(pt -616 336)
-	(pt -592 336)
-)
-(connector
-	(text "N_op5" (rect -614 160 -580 170)(font "Intel Clear" ))
-	(pt -616 176)
-	(pt -592 176)
-)
-(connector
-	(text "N_op4" (rect -614 200 -579 210)(font "Intel Clear" ))
-	(pt -616 216)
-	(pt -592 216)
-)
-(connector
-	(text "N_op3" (rect -614 240 -580 250)(font "Intel Clear" ))
-	(pt -616 256)
-	(pt -592 256)
-)
-(connector
-	(text "N_op2" (rect -614 280 -580 290)(font "Intel Clear" ))
-	(pt -616 296)
-	(pt -592 296)
 )
 (connector
 	(text "N_op5" (rect -1029 -14 -1019 20)(font "Intel Clear" )(vertical))
@@ -2161,11 +2095,6 @@ applicable agreement for further details.
 	(text "N_op0" (rect 535 -17 545 18)(font "Intel Clear" )(vertical))
 	(pt 552 16)
 	(pt 552 -16)
-)
-(connector
-	(text "r" (rect -992 90 -982 95)(font "Intel Clear" )(vertical))
-	(pt -976 80)
-	(pt -976 112)
 )
 (connector
 	(text "lw" (rect -864 85 -854 97)(font "Intel Clear" )(vertical))
@@ -2427,11 +2356,6 @@ applicable agreement for further details.
 	(pt 296 944)
 )
 (connector
-	(text "OpCode" (rect 242 1088 283 1098)(font "Arial" ))
-	(pt 272 1104)
-	(pt 232 1104)
-)
-(connector
 	(text "r" (rect 122 1000 126 1010)(font "Arial" ))
 	(pt 112 1016)
 	(pt 168 1016)
@@ -2584,4 +2508,84 @@ applicable agreement for further details.
 	(text "bgez" (rect 8 1064 32 1074)(font "Arial" ))
 	(pt 48 1072)
 	(pt 0 1072)
+)
+(connector
+	(text "op[5]" (rect -670 328 -642 338)(font "Intel Clear" ))
+	(pt -648 344)
+	(pt -672 344)
+)
+(connector
+	(text "op[4]" (rect -670 368 -642 378)(font "Intel Clear" ))
+	(pt -648 384)
+	(pt -672 384)
+)
+(connector
+	(text "op[3]" (rect -670 408 -642 418)(font "Intel Clear" ))
+	(pt -648 424)
+	(pt -672 424)
+)
+(connector
+	(text "op[2]" (rect -670 448 -642 458)(font "Intel Clear" ))
+	(pt -648 464)
+	(pt -672 464)
+)
+(connector
+	(text "op[1]" (rect -670 488 -642 498)(font "Intel Clear" ))
+	(pt -648 504)
+	(pt -672 504)
+)
+(connector
+	(text "op[0]" (rect -670 528 -642 538)(font "Intel Clear" ))
+	(pt -648 544)
+	(pt -672 544)
+)
+(connector
+	(text "op[5..0]" (rect -830 336 -788 346)(font "Intel Clear" ))
+	(pt -832 352)
+	(pt -768 352)
+	(bus)
+)
+(connector
+	(text "N_op0" (rect -598 528 -563 538)(font "Intel Clear" ))
+	(pt -600 544)
+	(pt -576 544)
+)
+(connector
+	(text "N_op1" (rect -598 488 -564 498)(font "Intel Clear" ))
+	(pt -600 504)
+	(pt -576 504)
+)
+(connector
+	(text "N_op5" (rect -598 328 -564 338)(font "Intel Clear" ))
+	(pt -600 344)
+	(pt -576 344)
+)
+(connector
+	(text "N_op4" (rect -598 368 -563 378)(font "Intel Clear" ))
+	(pt -600 384)
+	(pt -576 384)
+)
+(connector
+	(text "N_op3" (rect -598 408 -564 418)(font "Intel Clear" ))
+	(pt -600 424)
+	(pt -576 424)
+)
+(connector
+	(text "N_op2" (rect -598 448 -564 458)(font "Intel Clear" ))
+	(pt -600 464)
+	(pt -576 464)
+)
+(connector
+	(pt 232 1112)
+	(pt 232 1104)
+)
+(connector
+	(text "r" (rect -984 99 -974 103)(font "Arial" )(vertical))
+	(pt -976 80)
+	(pt -976 128)
+)
+(connector
+	(text "OpCode" (rect 407 1104 448 1114)(font "Arial" ))
+	(pt 232 1112)
+	(pt 440 1112)
 )

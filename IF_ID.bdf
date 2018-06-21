@@ -69,7 +69,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -64 288 112 304)
+	(rect 96 280 272 296)
 	(text "INPUT" (rect 133 0 162 9)(font "Arial" (font_size 6)))
 	(text "Soma_4Pc[31..0]" (rect 9 0 90 10)(font "Arial" ))
 	(pt 176 8)
@@ -101,7 +101,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 816 64 992 80)
+	(rect 536 96 712 112)
 	(text "OUTPUT" (rect 1 0 41 9)(font "Arial" (font_size 6)))
 	(text "Inst[31..0]" (rect 90 0 137 10)(font "Arial" ))
 	(pt 0 8)
@@ -117,7 +117,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 816 208 992 224)
+	(rect 536 240 712 256)
 	(text "OUTPUT" (rect 1 0 41 9)(font "Arial" (font_size 6)))
 	(text "PC4[31..0]" (rect 90 0 140 10)(font "Arial" ))
 	(pt 0 8)
@@ -146,45 +146,6 @@ applicable agreement for further details.
 		(line (pt 8 8)(pt 16 16))
 		(line (pt 16 16)(pt 24 8))
 		(line (pt 8 8)(pt 24 8))
-	)
-)
-(symbol
-	(rect 168 240 320 320)
-	(text "lpm_mux15" (rect 47 2 128 17)(font "Arial" (font_size 10)))
-	(text "zera1" (rect 8 64 36 74)(font "Arial" ))
-	(port
-		(pt 0 40)
-		(input)
-		(text "data1x[31..0]" (rect 0 0 76 12)(font "Arial" (font_size 8)))
-		(text "data1x[31..0]" (rect 4 27 80 39)(font "Arial" (font_size 8)))
-		(line (pt 0 40)(pt 72 40)(line_width 3))
-	)
-	(port
-		(pt 0 56)
-		(input)
-		(text "data0x[31..0]" (rect 0 0 76 12)(font "Arial" (font_size 8)))
-		(text "data0x[31..0]" (rect 4 43 80 55)(font "Arial" (font_size 8)))
-		(line (pt 0 56)(pt 72 56)(line_width 3))
-	)
-	(port
-		(pt 80 80)
-		(input)
-		(text "sel" (rect 0 0 18 12)(font "Arial" (font_size 8)))
-		(text "sel" (rect 84 67 102 79)(font "Arial" (font_size 8)))
-		(line (pt 80 80)(pt 80 68))
-	)
-	(port
-		(pt 152 48)
-		(output)
-		(text "result[31..0]" (rect 0 0 69 12)(font "Arial" (font_size 8)))
-		(text "result[31..0]" (rect 92 35 161 47)(font "Arial" (font_size 8)))
-		(line (pt 152 48)(pt 88 48)(line_width 3))
-	)
-	(drawing
-		(line (pt 72 24)(pt 72 72))
-		(line (pt 88 32)(pt 88 64))
-		(line (pt 72 24)(pt 88 32))
-		(line (pt 72 72)(pt 88 64))
 	)
 )
 (symbol
@@ -263,78 +224,6 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 600 40 752 136)
-	(text "Registrador" (rect 5 0 73 12)(font "Arial" (font_size 8)))
-	(text "reg2" (rect 8 80 30 90)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "Clock" (rect 0 0 34 12)(font "Arial" (font_size 8)))
-		(text "Clock" (rect 21 27 55 39)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "Disponivel" (rect 0 0 61 12)(font "Arial" (font_size 8)))
-		(text "Disponivel" (rect 21 43 82 55)(font "Arial" (font_size 8)))
-		(line (pt 0 48)(pt 16 48))
-	)
-	(port
-		(pt 0 64)
-		(input)
-		(text "E[31..0]" (rect 0 0 46 12)(font "Arial" (font_size 8)))
-		(text "E[31..0]" (rect 21 59 67 71)(font "Arial" (font_size 8)))
-		(line (pt 0 64)(pt 16 64)(line_width 3))
-	)
-	(port
-		(pt 152 32)
-		(output)
-		(text "S[31..0]" (rect 0 0 46 12)(font "Arial" (font_size 8)))
-		(text "S[31..0]" (rect 93 27 139 39)(font "Arial" (font_size 8)))
-		(line (pt 152 32)(pt 136 32)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 136 80))
-	)
-)
-(symbol
-	(rect 600 184 752 280)
-	(text "Registrador" (rect 5 0 73 12)(font "Arial" (font_size 8)))
-	(text "reg3" (rect 8 80 30 90)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "Clock" (rect 0 0 34 12)(font "Arial" (font_size 8)))
-		(text "Clock" (rect 21 27 55 39)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "Disponivel" (rect 0 0 61 12)(font "Arial" (font_size 8)))
-		(text "Disponivel" (rect 21 43 82 55)(font "Arial" (font_size 8)))
-		(line (pt 0 48)(pt 16 48))
-	)
-	(port
-		(pt 0 64)
-		(input)
-		(text "E[31..0]" (rect 0 0 46 12)(font "Arial" (font_size 8)))
-		(text "E[31..0]" (rect 21 59 67 71)(font "Arial" (font_size 8)))
-		(line (pt 0 64)(pt 16 64)(line_width 3))
-	)
-	(port
-		(pt 152 32)
-		(output)
-		(text "S[31..0]" (rect 0 0 46 12)(font "Arial" (font_size 8)))
-		(text "S[31..0]" (rect 93 27 139 39)(font "Arial" (font_size 8)))
-		(line (pt 152 32)(pt 136 32)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 136 80))
-	)
-)
-(symbol
 	(rect 344 176 496 272)
 	(text "Registrador" (rect 5 0 73 12)(font "Arial" (font_size 8)))
 	(text "reg4" (rect 8 80 30 90)(font "Arial" ))
@@ -371,44 +260,14 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(pt 752 72)
-	(pt 816 72)
-	(bus)
-)
-(connector
-	(pt 752 216)
-	(pt 816 216)
-	(bus)
-)
-(connector
-	(pt 600 248)
-	(pt 496 248)
-	(bus)
-)
-(connector
 	(pt 496 248)
 	(pt 496 208)
-	(bus)
-)
-(connector
-	(pt 600 104)
-	(pt 488 104)
 	(bus)
 )
 (connector
 	(pt 488 104)
 	(pt 488 56)
 	(bus)
-)
-(connector
-	(text "Clock" (rect 582 208 610 218)(font "Arial" ))
-	(pt 600 216)
-	(pt 552 216)
-)
-(connector
-	(text "Clock" (rect 552 64 580 74)(font "Arial" ))
-	(pt 600 72)
-	(pt 544 72)
 )
 (connector
 	(text "Clock" (rect 240 48 268 58)(font "Arial" ))
@@ -431,21 +290,6 @@ applicable agreement for further details.
 	(pt 264 224)
 )
 (connector
-	(text "Enable" (rect 544 80 578 90)(font "Arial" ))
-	(pt 600 88)
-	(pt 536 88)
-)
-(connector
-	(text "Enable" (rect 552 224 586 234)(font "Arial" ))
-	(pt 600 232)
-	(pt 544 232)
-)
-(connector
-	(pt 320 288)
-	(pt 344 288)
-	(bus)
-)
-(connector
 	(pt 344 288)
 	(pt 344 240)
 	(bus)
@@ -466,19 +310,9 @@ applicable agreement for further details.
 	(pt 160 432)
 )
 (connector
-	(text "limpa" (rect 240 337 250 364)(font "Arial" )(vertical))
-	(pt 248 320)
-	(pt 248 376)
-)
-(connector
 	(text "limpa" (rect 240 145 250 172)(font "Arial" )(vertical))
 	(pt 248 168)
 	(pt 248 184)
-)
-(connector
-	(pt 168 296)
-	(pt 112 296)
-	(bus)
 )
 (connector
 	(pt 168 144)
@@ -507,14 +341,23 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "zero[31..0]" (rect 112 272 162 282)(font "Arial" ))
-	(pt 168 280)
-	(pt 104 280)
-	(bus)
-)
-(connector
 	(text "zero[31..0]" (rect 128 120 178 130)(font "Arial" ))
 	(pt 168 128)
 	(pt 120 128)
+	(bus)
+)
+(connector
+	(pt 488 104)
+	(pt 536 104)
+	(bus)
+)
+(connector
+	(pt 496 248)
+	(pt 536 248)
+	(bus)
+)
+(connector
+	(pt 272 288)
+	(pt 344 288)
 	(bus)
 )
