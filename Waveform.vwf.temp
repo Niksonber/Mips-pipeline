@@ -7506,11 +7506,12 @@ TRANSITION_LIST("clock_aux")
 		REPEAT = 1;
 		NODE
 		{
-			REPEAT = 333;
-			LEVEL 0 FOR 150.0;
-			LEVEL 1 FOR 150.0;
+			REPEAT = 666;
+			LEVEL 0 FOR 75.0;
+			LEVEL 1 FOR 75.0;
 		}
-		LEVEL 0 FOR 100.0;
+		LEVEL 0 FOR 75.0;
+		LEVEL 1 FOR 25.0;
 	}
 }
 

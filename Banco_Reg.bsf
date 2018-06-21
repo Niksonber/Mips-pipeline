@@ -20,9 +20,9 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 296 208)
+	(rect 16 16 296 272)
 	(text "Banco_Reg" (rect 5 0 74 12)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 178 25 188)(font "Arial" ))
+	(text "inst" (rect 8 242 25 252)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -128,7 +128,35 @@ applicable agreement for further details.
 		(text "t6[31..0]" (rect 211 155 259 167)(font "Arial" (font_size 8)))
 		(line (pt 280 160)(pt 264 160)(line_width 3))
 	)
+	(port
+		(pt 280 176)
+		(output)
+		(text "s0[31..0]" (rect 0 0 51 12)(font "Arial" (font_size 8)))
+		(text "s0[31..0]" (rect 208 171 259 183)(font "Arial" (font_size 8)))
+		(line (pt 280 176)(pt 264 176)(line_width 3))
+	)
+	(port
+		(pt 280 192)
+		(output)
+		(text "s1[31..0]" (rect 0 0 51 12)(font "Arial" (font_size 8)))
+		(text "s1[31..0]" (rect 208 187 259 199)(font "Arial" (font_size 8)))
+		(line (pt 280 192)(pt 264 192)(line_width 3))
+	)
+	(port
+		(pt 280 208)
+		(output)
+		(text "s2[31..0]" (rect 0 0 51 12)(font "Arial" (font_size 8)))
+		(text "s2[31..0]" (rect 208 203 259 215)(font "Arial" (font_size 8)))
+		(line (pt 280 208)(pt 264 208)(line_width 3))
+	)
+	(port
+		(pt 280 224)
+		(output)
+		(text "s3[31..0]" (rect 0 0 51 12)(font "Arial" (font_size 8)))
+		(text "s3[31..0]" (rect 208 219 259 231)(font "Arial" (font_size 8)))
+		(line (pt 280 224)(pt 264 224)(line_width 3))
+	)
 	(drawing
-		(rectangle (rect 16 16 264 176))
+		(rectangle (rect 16 16 264 240))
 	)
 )
