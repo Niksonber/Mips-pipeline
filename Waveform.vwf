@@ -1,3 +1,4 @@
+/* Simulator = Quartus II Simulator */
 /*
 WARNING: Do NOT edit the input and output ports in this file in a text
 editor if you plan to continue editing the block that represents it in
@@ -8809,12 +8810,10 @@ TRANSITION_LIST("CLOCK")
 		REPEAT = 1;
 		NODE
 		{
-			REPEAT = 166;
-			LEVEL 0 FOR 300.0;
-			LEVEL 1 FOR 300.0;
+			REPEAT = 250;
+			LEVEL 0 FOR 200.0;
+			LEVEL 1 FOR 200.0;
 		}
-		LEVEL 0 FOR 300.0;
-		LEVEL 1 FOR 100.0;
 	}
 }
 
@@ -8825,12 +8824,10 @@ TRANSITION_LIST("clock_aux")
 		REPEAT = 1;
 		NODE
 		{
-			REPEAT = 666;
-			LEVEL 0 FOR 75.0;
-			LEVEL 1 FOR 75.0;
+			REPEAT = 1000;
+			LEVEL 0 FOR 50.0;
+			LEVEL 1 FOR 50.0;
 		}
-		LEVEL 0 FOR 75.0;
-		LEVEL 1 FOR 25.0;
 	}
 }
 
